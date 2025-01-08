@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.1.0",
+    "hardhat": "^2.22.17"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "scripts": {
+    "deploy": "npx hardhat ignition deploy ./ignition/modules/ERC_20.js --network bitfinityTestnet --show-stack-traces",
+    "compile": "npx hardhat compile"
+  }
+}

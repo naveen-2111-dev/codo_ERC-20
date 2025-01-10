@@ -9,9 +9,8 @@ module.exports = {
     runs: 200,
   },
   networks: {
-    bitfinityTestnet: {
-      url: "https://testnet.bitfinity.network",
-      chainId: 355113,
+    fantomtest: {
+      url: "https://rpc.ankr.com/fantom_testnet",
       accounts: [process.env.PRIVATE_KEY],
     },
   },

@@ -8,7 +8,7 @@
     "dotenv": "^16.4.7"
   },
   "scripts": {
-    "deploy": "npx hardhat ignition deploy ./ignition/modules/ERC_20.js --network fantomtest --show-stack-traces",
+    "deploy": "npx hardhat ignition deploy ./ignition/modules/ERC_20.js --network moon --show-stack-traces",
     "compile": "npx hardhat compile"
   }
 }

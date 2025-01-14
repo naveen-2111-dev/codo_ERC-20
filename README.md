@@ -7,12 +7,12 @@ This Token has been deployed in two networks as of now to make a bridge between 
 - **Token 1**  
   on Bitfinity network:  
   **Contract Address**:  
-  0x1c0e83151F3e4a1d56acb32Ca0FEDf892D85EE65
+  0x87c9B3bcdb46cF84Db1C0e3B727f17fD6c62D575
 
 - **Token 2**  
-  on Fantom network:  
+  on moonbase alpha network:  
   **Contract Address**:  
-  0xaB9A0125a547dC75a9e3BCFD7fE3c151fC63203D
+  0xE83AAf495e3E764E748C8D863A920dB068821fE5
 
 ### Steps to add these tokens to your MetaMask
 
@@ -21,7 +21,7 @@ This Token has been deployed in two networks as of now to make a bridge between 
 3. Enter the network details for **Bitfinity** or **Fantom**, depending on the token you wish to add.
 4. After switching to the correct network, click on "Add Token."
 5. Choose "Custom Token" and enter the token's **Contract Address**:
-   - For Bitfinity: 0x1c0e83151F3e4a1d56acb32Ca0FEDf892D85EE65
-   - For Fantom: 0xaB9A0125a547dC75a9e3BCFD7fE3c151fC63203D
+   - For Bitfinity: 0x87c9B3bcdb46cF84Db1C0e3B727f17fD6c62D575
+   - For Fantom: 0xE83AAf495e3E764E748C8D863A920dB068821fE5
 6. MetaMask will automatically fetch the token’s name and symbol. Confirm the information and click "Next."
 7. Click "Add Tokens," and the token will now appear in your MetaMask wallet.

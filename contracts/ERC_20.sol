@@ -10,7 +10,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
  */
 contract Codo is ERC20 {
     address public creator;
-    uint256 public amount = 1;
+    uint256 public amount = 1 * 10**uint256(decimals());
 
     /**
      * @dev Modifier to check if the caller is the owner (creator) of the contract.

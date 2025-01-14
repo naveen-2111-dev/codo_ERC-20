@@ -9,8 +9,9 @@ module.exports = {
     runs: 200,
   },
   networks: {
-    fantomtest: {
-      url: "https://rpc.ankr.com/fantom_testnet",
+    moon: {
+      url: "https://rpc.testnet.moonbeam.network",
+      chainId: 1287,
       accounts: [process.env.PRIVATE_KEY],
     },
   },
